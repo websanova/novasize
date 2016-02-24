@@ -1,0 +1,27 @@
+{
+    "name": "websanova/novasize",
+    "type": "package",
+    "description": "Command line image resizing utility for Laravel.",
+    "keywords": ["laravel", "5", "5.0", "5.1", "novasize", "image", "resize", "size"],
+    "homepage": "https://github.com/websanova/novasize",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "websanova",
+            "email": "rob@websanova.com",
+            "homepage": "http://websanova.com"
+        }
+    ],
+    "autoload-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Websanova\\Novasize\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "~5",
+        "intervention/image": "2.3.5"
+    },
+}
