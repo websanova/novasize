@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Websanova\\Novasize\\": "src/"
+            "Websanova\\Novasize\\": "app/"
         }
     },
     "require": {
